@@ -99,7 +99,7 @@ BRUSHED.slider = function(){
 											{image : '_include/img/slider-images/19.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/20.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/21.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/22.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
+											
 											{image : '_include/img/slider-images/23.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/24.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/25.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''}  
