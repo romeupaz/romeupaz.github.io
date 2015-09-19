@@ -86,7 +86,7 @@ BRUSHED.slider = function(){
 											{image : '_include/img/slider-images/06.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/07.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/08.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
-											{image : '_include/img/slider-images/09.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
+											
 											{image : '_include/img/slider-images/10.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/11.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
 											{image : '_include/img/slider-images/12.jpg', title : '<div class="slide-content"><img src="_include/img/logobig.png" alt="romeupaz.com"/></div>', thumb : '', url : ''},
@@ -298,6 +298,19 @@ BRUSHED.goSection = function(){
 }
 
 /* ==================================================
+   MY Next Section
+================================================== */
+
+BRUSHED.goSection = function(){
+	$('#mynextsection').on('click', function(){
+		$target = $($(this).attr('href')).offset().top-30;
+		
+		$('body, html').animate({scrollTop : $target}, 750, 'easeOutExpo');
+		return false;
+	});
+}
+
+/* ==================================================
    GoUp
 ================================================== */
 
@@ -309,6 +322,8 @@ BRUSHED.goUp = function(){
 		return false;
 	});
 }
+
+
 
 
 /* ==================================================

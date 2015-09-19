@@ -1076,6 +1076,31 @@ nav#menu #menu-nav li a:hover {
 			transform: rotateY(180deg);
 }
 
+#social2 ul li a {
+	display: block;
+	width: 70px;
+	height: 70px;
+
+	background: #26292E;
+	
+	-webkit-transition: all 400ms ease-out 0s;	
+	   -moz-transition: all 400ms ease-out 0s;
+		 -o-transition: all 400ms ease-out 0s;
+		    transition: all 400ms ease-out 0s;
+	
+	-webkit-transform: rotateY(180deg);
+	   -moz-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		 -o-transform: rotateY(180deg);
+			transform: rotateY(180deg);
+}
+
+.mySocial 
+{
+	background-color: transparent;
+	
+}
+
 #social ul li a span {
 	display: inline-block;
 	margin: 0;

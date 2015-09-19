@@ -93,13 +93,40 @@
 
 <!-- Homepage Slider -->
 <div id="home-slider">	
-    <div class="overlay"></div>
+    
+	<div class="overlay"></div>
+<div id="social-area" class="page" style="background-color:transparent;">
+	<div class="container" >
+	 
+    	<div class="row">
+            <div class="span12">
+                <nav id="social" >
+                    <ul>
+                        <li><a href="https://twitter.com/romeupaz_" title="Follow Me on Twitter" target="_blank" style="opacity: 0.2;"><span class="font-icon-social-twitter" style="opacity: 1;"></span></a></li>
+                        <li><a href="https://www.facebook.com/romeupaz" title="Follow Me on Facebook" target="_blank" style="opacity: 0.2;"><span class="font-icon-social-facebook"  style="opacity: 1;"></span></a></li>
+                        <li><a href="https://plus.google.com/u/0/+RomeuPaz/posts" title="Follow Me on Google Plus" target="_blank" style="opacity: 0.2;"><span class="font-icon-social-google-plus" style="opacity: 1;"></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/romeupaz" title="Follow Me on LinkedIn" target="_blank" style="opacity: 0.2;"><span class="font-icon-social-linkedin" style="opacity: 1;"></span></a></li>
+                        <li><a href="https://www.youtube.com/user/qwertyleiria" title="Follow Me on Youtube" target="_blank" style="opacity: 0.2;"><span class="font-icon-social-youtube" style="opacity: 1;"></span></a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
 
+	<a id="mynextsection" href="#work" title="romeupaz.com | my life online">
     <div class="slider-text">
     	<div id="slidecaption"></div>
     </div>   
+	</a>
+	
+	
 	
 	<div class="control-nav">
+	
+	
+	
         <a id="prevslide" class="load-item"><i class="font-icon-arrow-simple-left"></i></a>
         <a id="nextslide" class="load-item"><i class="font-icon-arrow-simple-right"></i></a>
         <ul id="slide-list"></ul>
@@ -124,7 +151,7 @@
                 <li><a href="#work">my Work</a></li>
                 <li><a href="#about">About me</a></li>
                 <li><a href="#contact">Contact</a></li>
-				<li><a href="shortcodes.html" class="external">Shortcodes</a></li>
+				
             </ul>
         </nav>
         
@@ -140,7 +167,7 @@
             <div class="span12">
                 <div class="title-page">
                     <h2 class="title">my Work</h2>
-                    <h3 class="title-description">Check Out Our Projects on <a href="#">Dribbble</a>.</h3>
+                    <!--<h3 class="title-description">Check Out Our Projects on <a href="#">Dribbble</a>.</h3>-->
                 </div>
             </div>
         </div>
@@ -154,9 +181,10 @@
                     <ul id="filters" class="option-set" data-option-key="filter">
                     	<li class="type-work">Type of Work</li>
                         <li><a href="#filter" data-option-value="*" class="selected">All Projects</a></li>
-                        <li><a href="#filter" data-option-value=".design">Design</a></li>
+                        <li><a href="#filter" data-option-value=".design">Web</a></li>
                         <li><a href="#filter" data-option-value=".photography">Photography</a></li>
                         <li><a href="#filter" data-option-value=".video">Video</a></li>
+						<li><a href="#filter" data-option-value=".live">Live</a></li>
                     </ul>
                 </nav>
                 <!-- End Filter -->
@@ -166,40 +194,75 @@
             	<div class="row">
                 	<section id="projects">
                     	<ul id="thumbs">
-                        
-							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
+                        <!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The City" href="_include/img/work/full/image-01-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Ice End" href="_include/img/slider-images/01.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-01.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="_include/img/slider-images/output/01.jpg" alt="">
                             </li>
                         	<!-- End Item Project -->
-                            
+							
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3 design">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Office" href="_include/img/work/full/image-02-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Meteoleiria" href="_include/img/work/full/m02.png">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-02.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="_include/img/work/thumbs/m02.png" alt="my non-profit project with the aim to provide meteorological data of the city of Leiria. <a href='http://www.meteoleiria.org' target='_blank'>http://www.meteoleiria.org</a> also on <a href='http://www.facebook.com/meteoleiria' target='_blank'>Facebook</a>">
                             </li>
                         	<!-- End Item Project -->
-                            
+							
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3 photography">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Mountains" href="_include/img/work/full/image-03-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Almighty" href="_include/img/slider-images/00.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-03.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="_include/img/slider-images/output/00.jpg" alt="Leiria in the background">
+                            </li>
+                        	<!-- End Item Project -->
+							
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Meteoleiria in Preguiça Magazine" href="_include/img/work/full/m01.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/m01.png" alt="Full: <a href='http://preguicamagazine.com/2014/01/09/meteo-faca-chuva-ou-faca-sol/' target='_blank'>http://preguicamagazine.com/2014/01/09/meteo-faca-chuva-ou-faca-sol/</a>">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 live">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Leiria Castle Live" href="http://casadocastelo.ddns.net:8080/leiria.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/live.png" alt="Weather Cam Live - Also available in  <a href='http://www.meteoleiria.org' target='_blank'>http://www.meteoleiria.org</a>">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Lizvida Website" href="_include/img/work/full/lizvida.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/lizvida.png" alt="Website development <a href='http://www.lizvida.pt' target='_blank'>http://www.lizvida.pt</a>">
                             </li>
                         	<!-- End Item Project -->
                             
@@ -216,29 +279,41 @@
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 photography">
+                        	<li class="item-thumbs span3 design">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Sea" href="_include/img/work/full/image-04-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Meteoleiria in Jornal de Leiria" href="_include/img/work/full/m03.png">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-04.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="_include/img/work/thumbs/m03.png" alt="in Jornal de Leiria (Ano XXVIII Edição 1504 Pag. 19, 9 de Maio de 2013)">
+                            </li>
+                        	<!-- End Item Project -->
+                            
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 design">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Alcance Website" href="_include/img/work/full/alcance.png">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/work/thumbs/alcance.png" alt="Website development <a href='http://www.alcance.com.pt' target='_blank'>http://www.alcance.com.pt</a>">
                             </li>
                         	<!-- End Item Project -->
                             
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3 photography">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Clouds" href="_include/img/work/full/image-05-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Motocross Janardo - Troféu Pitbike Regional Centro 2012 e 50cc" href="_include/img/work/full/mj.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-05.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="_include/img/work/thumbs/mj.png" alt="<a href='https://picasaweb.google.com/116735837491030388007/MotocrossJanardoTrofeuPitbikeRegionalCentro2012E50cc#' target='_blank'>Full Album</a>">
                             </li>
                         	<!-- End Item Project -->
-                            
+							
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3 video">
                             	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
@@ -251,39 +326,285 @@
                             </li>
                         	<!-- End Item Project -->
                             
+							                            
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
+                        	<li class="item-thumbs span3 photography">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Dark" href="_include/img/work/full/image-06-full.jpg">
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Fire Flower" href="_include/img/slider-images/15.jpg">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-06.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
+                                <img src="_include/img/slider-images/output/15.jpg" alt="">
                             </li>
                         	<!-- End Item Project -->
-                            
 							<!-- Item Project and Filter Name -->
-                        	<li class="item-thumbs span3 design">
-                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
-                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="The Beach" href="_include/img/work/full/image-07-full.jpg">
-                                	<span class="overlay-img"></span>
-                                    <span class="overlay-img-thumb font-icon-plus"></span>
-                                </a>
-                                <!-- Thumb Image and Description -->
-                                <img src="_include/img/work/thumbs/image-07.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis elementum odio. Curabitur pellentesque, dolor vel pharetra mollis.">
-                            </li>
-                        	<!-- End Item Project -->
 							
 							<!-- Item Project and Filter Name -->
                         	<li class="item-thumbs span3 video">
                             	<!-- Fancybox Media - Gallery Enabled - Title - Link to Video -->
-                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="my 1st 1000km" href="https://www.youtube.com/watch?v=A4qm8GT7AS8">
+                            	<a class="hover-wrap fancybox-media" data-fancybox-group="video" title="Video Produced to Alcance.com.pt" href="https://www.youtube.com/watch?v=A4qm8GT7AS8">
                                 	<span class="overlay-img"></span>
                                     <span class="overlay-img-thumb font-icon-plus"></span>
                                 </a>
                                 <!-- Thumb Image and Description -->
                                 <img src="_include/img/work/thumbs/image-10.png" alt="Video">
+                            </li>
+                        	<!-- End Item Project -->
+							
+							<!-- IMAGENS -->
+							
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="A little life in water" href="_include/img/slider-images/02.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/02.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Small world" href="_include/img/slider-images/03.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/03.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Tavira" href="_include/img/slider-images/04.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/04.jpg" alt="(Algarve - Portugal)">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Hell" href="_include/img/slider-images/05.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/05.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Around the corner" href="_include/img/slider-images/06.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/06.jpg" alt="Faro - Algarve - Portugal">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Vila Real de Santo António" href="_include/img/slider-images/07.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/07.jpg" alt="Algarve - Portugal">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Gilão" href="_include/img/slider-images/08.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/08.jpg" alt="Tavira - Algarve - Portugal">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Dead Red" href="_include/img/slider-images/09.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/09.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Nock Nock" href="_include/img/slider-images/10.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/10.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Hell on Earth" href="_include/img/slider-images/11.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/11.jpg" alt="Fires in Ourem viewed from Leiria in August 2005">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Formosa" href="_include/img/slider-images/12.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/12.jpg" alt="Ria Formosa - Algarve - Portugal">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Almond" href="_include/img/slider-images/13.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/13.jpg" alt="Almond tree flower">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Mercado da Ribeira" href="_include/img/slider-images/14.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/14.jpg" alt="Tavira - Algarve - Portugal">
+                            </li>
+                        	<!-- End Item Project -->
+							
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Yellow" href="_include/img/slider-images/16.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/16.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="My Book" href="_include/img/slider-images/17.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/17.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Cacela Velha" href="_include/img/slider-images/18.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/18.jpg" alt="Algarve - Portugal">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Fly Away" href="_include/img/slider-images/19.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/19.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="A Fabrica" href="_include/img/slider-images/20.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/20.jpg" alt="Algarve - Portugal">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Go Up" href="_include/img/slider-images/21.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/21.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Brown" href="_include/img/slider-images/23.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/23.jpg" alt="">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="God's hand" href="_include/img/slider-images/24.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/24.jpg" alt="São Pedro de Moel - Leiria - Portugal">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Alentejo" href="_include/img/slider-images/26.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/26.jpg" alt="Alentejo - Portugal">
+                            </li>
+                        	<!-- End Item Project -->
+							<!-- Item Project and Filter Name -->
+                        	<li class="item-thumbs span3 photography">
+                            	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
+                            	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Leiria :)" href="_include/img/slider-images/25.jpg">
+                                	<span class="overlay-img"></span>
+                                    <span class="overlay-img-thumb font-icon-plus"></span>
+                                </a>
+                                <!-- Thumb Image and Description -->
+                                <img src="_include/img/slider-images/output/25.jpg" alt="Castelo de Leiria - Portugal">
                             </li>
                         	<!-- End Item Project -->
                         </ul>
@@ -305,7 +626,7 @@
         <div class="span12">
             <div class="title-page">
                 <h2 class="title">About Me</h2>
-                <h3 class="title-description">Learn About our Team &amp; Culture.</h3>
+                <h3 class="title-description"></h3>
             </div>
         </div>
     </div>
@@ -319,19 +640,19 @@
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">CTO/Founder</span>
+                    <span class="overlay-text-thumb">The engineer</span>
                 </div>
-                <img src="_include/img/profile/profile-01.jpg" alt="John Doe">
+                <img src="_include/img/profile/profile-01.jpg" alt="The engineer">
             </div>
-            <h3 class="profile-name">John Doe</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <h3 class="profile-name">The engineer</h3>
+            <p class="profile-description">Degree in Computer Science and a Master of Mobile Applications Engineering. At present works for <a href="http://www.inov.pt/" target="_blank">INOV INESC Inovação</a> a non-profit IT research and knowledge transfer.</p>
             	
             <div class="social">
-            	<ul class="social-icons">
+            	<ul class="social-icons"><!--
                 	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-dribbble"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-facebook"></i></a></li>
+					-->
                 </ul>
             </div>
         </div>
@@ -342,18 +663,19 @@
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Creative Director</span>
+                    <span class="overlay-text-thumb">The weatherman</span>
                 </div>
-                <img src="_include/img/profile/profile-02.jpg" alt="Jane Helf">
+                <img src="_include/img/profile/profile-02.jpg" alt="The weatherman">
             </div>
-            <h3 class="profile-name">Jane Helf</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <h3 class="profile-name">The weatherman</h3>
+            <p class="profile-description">Weather lover and creator of the project, nonprofit <a href="http://www.meteoleiria.org/" target="_blank">meteoleiria</a> who aims to spread the meteorology between the population of Leiria. </p>
             	
             <div class="social">
             	<ul class="social-icons">
+				<!--
                 	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-email"></i></a></li>
+					-->
                 </ul>
             </div>
         </div>
@@ -364,20 +686,20 @@
         	<div class="image-wrap">
                 <div class="hover-wrap">
                     <span class="overlay-img"></span>
-                    <span class="overlay-text-thumb">Lead Designer</span>
+                    <span class="overlay-text-thumb">UMM owner</span>
                 </div>
-                <img src="_include/img/profile/profile-03.jpg" alt="Joshua Insanus">
+                <img src="_include/img/profile/profile-03.jpg" alt="UMM owner">
             </div>
-            <h3 class="profile-name">Joshua Insanus</h3>
-            <p class="profile-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac augue at erat <a href="#">hendrerit dictum</a>. 
-            Praesent porta, purus eget sagittis imperdiet, nulla mi ullamcorper metus, id hendrerit metus diam vitae est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+            <h3 class="profile-name">UMM owner</h3>
+            <p class="profile-description">Owner of one of the last true Portuguese vehicles the indestructible <a href="https://en.wikipedia.org/wiki/UMM_(Uni%C3%A3o_Metalo-Mec%C3%A2nica)" target="_blank">UMM</a>. (1990) </p>
             	
             <div class="social">
-            	<ul class="social-icons">
+            	<ul class="social-icons"><!--
                 	<li><a href="#"><i class="font-icon-social-twitter"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-linkedin"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-google-plus"></i></a></li>
                     <li><a href="#"><i class="font-icon-social-vimeo"></i></a></li>
+					-->
                 </ul>
             </div>
         </div>
@@ -398,7 +720,7 @@
         <div class="span12">
             <div class="title-page">
                 <h2 class="title">Get in Touch</h2>
-                <h3 class="title-description">We’re currently accepting new client projects. We look forward to serving you.</h3>
+                <h3 class="title-description"></h3>
             </div>
         </div>
     </div>
@@ -407,7 +729,7 @@
     <!-- Contact Form -->
     <div class="row">
     	<div class="span9">
-        
+        <!--
         	<form id="contact-form" class="contact-form" action="#">
             	<p class="contact-name">
             		<input id="contact_name" type="text" placeholder="Full Name" value="" name="name" />
@@ -426,23 +748,19 @@
                 
                 </div>
             </form>
-         
+         -->
+		 
+		 <h3>Contact Details</h3>
+                <ul>
+                    <li><a href="mailto:me@romeupaz.com">me@romeupaz.com</a></li>
+					<li><a href="mailto:romeupaz@live.com">romeupaz@live.com</a></li>
+                    
+                </ul>
         </div>
         
         <div class="span3">
         	<div class="contact-details">
-        		<h3>Contact Details</h3>
-                <ul>
-                    <li><a href="#">hello@brushed.com</a></li>
-                    <li>(916) 375-2525</li>
-                    <li>
-                        Brushed Studio
-                        <br>
-                        5240 Vanish Island. 105
-                        <br>
-                        Unknow
-                    </li>
-                </ul>
+        		
             </div>
         </div>
     </div>
@@ -451,7 +769,7 @@
 </div>
 <!-- End Contact Section -->
 
-<!-- Twitter Feed -->
+<!-- Twitter Feed --><!--
 <div id="twitter-feed" class="page-alternate">
 	<div class="container">
     	<div class="row">
@@ -465,7 +783,7 @@
             </div>
         </div>
     </div>
-</div>
+</div>-->
 <!-- End Twitter Feed -->
 
 <!-- Socialize -->
@@ -475,15 +793,12 @@
             <div class="span12">
                 <nav id="social">
                     <ul>
-                        <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
-                        <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
-                        <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
-                        <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
-                        <li><a href="https://www.facebook.com/Bluxart" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
-                        <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
-                        <li><a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
-                        <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
-                        <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+                        <li><a href="https://twitter.com/romeupaz_" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="https://www.facebook.com/romeupaz" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://plus.google.com/u/0/+RomeuPaz/posts" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
+                        <li><a href="https://www.linkedin.com/in/romeupaz" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                        <li><a href="https://www.youtube.com/user/qwertyleiria" title="Follow Me on Youtube" target="_blank"><span class="font-icon-social-youtube"></span></a></li>
+                        
                     </ul>
                 </nav>
             </div>
